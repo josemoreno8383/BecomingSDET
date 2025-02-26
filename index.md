@@ -28,9 +28,17 @@ Jekyll builds this Just the Docs theme docs website using the theme itself. Thes
 Browse the docs to learn more about how to use this theme.
 -->
 ##  Los principales temas que abordaré incluyen:
+
 <br>
+
 - **Testing de APIs con REST Assured**  
-  Estrategias para validar la integridad y funcionalidad de servicios web mediante pruebas automatizadas en **Java**, utilizando **Maven**, **TestNG** y **REST Assured**.  
+  Estrategias para validar la integridad y funcionalidad de servicios web mediante pruebas automatizadas en **Java**, utilizando **Maven**, **TestNG** y **REST Assured**. 
 <br>
+
+- **Testing de aplicaciones web con Java y selenium**  
+  Diseño e implementación de pruebas automatizadas para aplicaciones web utilizando **Java + selenium**, aplicando los principios de **Page Object Model (POM)**, **Behavior-Driven Development (BDD)**
+<br>
+
 - **Testing de aplicaciones web con Cypress**  
   Diseño e implementación de pruebas automatizadas para aplicaciones web utilizando **Cypress**, aplicando los principios de **Page Object Model (POM)**, **Behavior-Driven Development (BDD)** y **TypeScript** para mejorar la mantenibilidad y escalabilidad del código de prueba.
+<br>
