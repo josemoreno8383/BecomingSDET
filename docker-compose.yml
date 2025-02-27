@@ -1,0 +1,16 @@
+services:
+  jekyll:
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+      args:
+        VARIANT: bullseye
+        NODE_VERSION: lts/*
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/workspace:cached
+    working_dir: /workspace
+    environment:
+      - JEKYLL_ENV=development
+    command: /bin/sh -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --force_polling"
